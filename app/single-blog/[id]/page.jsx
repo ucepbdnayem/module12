@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 const Singleblog = async ({params}) => {
     const post = await getPostDetails(params.id);
-    console.log(post.postDetails);
     return (
         <section>
             <h1 className="font-bold text-lg pb-5">Post Details</h1>

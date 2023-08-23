@@ -464,7 +464,6 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 
 const Singleblog = async ({ params })=>{
     const post = await getPostDetails(params.id);
-    console.log(post.postDetails);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("h1", {
@@ -520,7 +519,7 @@ const Singleblog = async ({ params })=>{
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,607,662,806], () => (__webpack_exec__(9865)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,607,662,352], () => (__webpack_exec__(9865)));
 module.exports = __webpack_exports__;
 
 })();
